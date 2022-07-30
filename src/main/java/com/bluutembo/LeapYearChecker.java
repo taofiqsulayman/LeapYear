@@ -2,7 +2,12 @@ package com.bluutembo;
 
 public class LeapYearChecker {
 
-    public boolean isLeapYear(int year) {
+    public static void main(String[] args) {
+        System.out.println(isLeapYear(2024));
+
+    }
+
+    public static boolean isLeapYear(int year) {
 //        if ( year % 4 == 0 && year % 100 != 0)
 //            return true;
 //
